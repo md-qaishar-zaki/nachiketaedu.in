@@ -1,0 +1,35 @@
+<div class="testimonial_area section_gap">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="main_title">
+          <h2 class="mb-3">Student say about me</h2>
+          <p>----------------------------------------------</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row carousel-row">
+
+      <ngx-slick-carousel class="carousel" [config]="slideConfig">
+        <div class="col-md-4" ngxSlickItem *ngFor="let item of AllDetails">
+          <div class="testi_item">
+            <div class="d-flex justify-content-around">
+              <div>
+                <img src="../../assets/Images/testimonials/t2.jpg" alt="" />
+              </div>
+              <div>
+                <div class="testi_text">
+                  <h4>{{ item.name }}</h4>
+                  <h4>{{ item.Email }}</h4>
+                  <h4>{{ item.phone }}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </ngx-slick-carousel>
+    </div>
+  </div>
+</div> 

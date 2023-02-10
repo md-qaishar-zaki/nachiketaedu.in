@@ -1,0 +1,10 @@
+.center-top-banners {
+    height: 200px;
+    background: #fff;
+}
+@media (max-width: 600px){
+    .px-5 {
+        padding-right: 1.5rem!important;
+        padding-left: 1.5rem!important;
+    }
+}

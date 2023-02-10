@@ -1,0 +1,57 @@
+<div class="center-top-banners">
+</div>
+
+<div class="container-fluid px-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>ADCA Course:</h3>
+            <p *ngFor="let Data of ADCACourse" class="ADCACourse">{{Data.ADCACourseData}}</p>
+        </div>
+        <div class="col-md-6">
+            <h3>ADCA Course Duration:</h3>
+            <h5 *ngFor="let Data of CourseDuration">{{Data.CourseDurationData}}</h5>
+            <div class="FollowingTopic">
+                <div class="row">
+                    <div class="col-md-6" *ngFor="let Data of FollowingTopic">
+                        <p>{{Data.FollowingTopicData}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row my-5">
+                <div class="col-md-12">
+                    <marquee behavior="" direction="">
+                        <h6 *ngFor="let Data of UnderFiled">{{Data.UnderFiledData}}</h6>
+                    </marquee>
+                </div>
+                <div class="col-md-12">
+                    <p *ngFor="let Data of ADCA">{{Data.ADCAData}}</p>
+                </div>
+
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h3>ADCA Course Eligibility Criteria:</h3>
+                    <p *ngFor="let Data of EligibilityCriteria">{{Data.EligibilityCriteriaData}}</p>
+                </div>
+
+                <div class="col-md-6 mt-3">
+                    <h3>DCA Course 2023: Highlights</h3>
+                    <table class="table table-striped table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">ADCA Full Form</th>
+                                <th scope="col">Advance Diploma in Computer Application</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let Data of CourseHighlights">
+                                <td>{{Data.ADCACourseFull}}</td>
+                                <td>{{Data.Coursevalidation}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

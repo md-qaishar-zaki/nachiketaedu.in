@@ -1,0 +1,52 @@
+<div class="center-top-banners">
+</div>
+<div class="container-fluid px-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Details of DCA Course</h3>
+            <p *ngFor="let Course of DetailsCourse">{{Course.CourseDeta}}</p> 
+        </div>
+
+        <div class="col-md-6">
+            <h3>DCA Course 2023: Highlights</h3>
+            <div class="table-center">
+                <table class="table table-bordered table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">DCA Full Form</th>
+                            <th scope="col">Diploma in Computer Application</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let Course of CourseHighlights">
+                            <td scope="row">{{Course.DCACourseFull}}</td>
+                            <td>{{Course.Coursevalidation}}</td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="CourseSyllabus">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="Syllabus">
+                    <h3></h3>
+                    <p *ngFor="let Data of Syllabus">{{Data.SyllabusData}}</p> 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>DCA Computer Course 2023</h3>
+                <p *ngFor="let Data of DCAComputerCourse">{{Data.DCAComputerCourseData}}</p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-5">
+        <div class="col-md-12">
+            <h3>Scope of DCA Course</h3>
+            <p *ngFor="let Data of ScopeofCourse">{{Data.ScopeofCourseData}}</p> 
+        </div>
+    </div>
+</div>

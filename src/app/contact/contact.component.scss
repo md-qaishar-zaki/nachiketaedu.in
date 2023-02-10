@@ -1,0 +1,118 @@
+.contact_info {
+    margin-bottom: 50px;
+}
+
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #00000029;
+    border: 1px solid #00000036 !important;
+}
+
+.contact_info .info_item {
+    position: relative;
+    padding-left: 45px;
+}
+
+.contact_info .info_item i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #002347;
+    font-weight: 600;
+}
+
+.contact_info .info_item h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #002347;
+}
+
+.contact_info .info_item h6 a {
+    color: #002347;
+}
+
+.contact_info .info_item p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 2px 0px;
+}
+
+.contact_form .form-group {
+    margin-bottom: 10px;
+}
+
+.contact_form .form-group .form-control {
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    padding-left: 20px;
+}
+
+.contact_form .form-group .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.contact_form .form-group .form-control.placeholder {
+    color: #002347;
+    font-size: 13px;
+}
+
+.contact_form .form-group .form-control:-moz-placeholder {
+    color: #002347;
+    font-size: 13px;
+}
+
+.contact_form .form-group .form-control::-moz-placeholder {
+    color: #002347;
+    font-size: 13px;
+}
+
+.contact_form .form-group .form-control::-webkit-input-placeholder {
+    color: #002347;
+    font-size: 13px;
+}
+
+.contact_form .form-group textarea {
+    resize: none;
+}
+
+.contact_form .form-group textarea.form-control {
+    height: 140px;
+}
+
+.contact_form .primary-btn {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button[type=submit] {
+    border: 1px solid #fff;
+    background: #002347;
+    color: #fff;
+    padding: 12px 31px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 0.3s;
+}
+
+button[type=submit]:hover {
+    border: 1px solid #fff;
+    background: #002347;
+    color: #fff;
+    padding: 12px 31px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    transition: 0.3s;
+}

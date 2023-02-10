@@ -1,0 +1,23 @@
+<section class="feature_area section_gap_top">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="main_title">
+          <h2 class="mb-3">Awesome Feature</h2>
+          <p>Nachiketa Educational & Welfare Society.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6" *ngFor="let items of featureDetails">
+        <div class="single_feature">
+          <div class="icon"><img src="../../../assets/Images/icon/students-cap.png" alt=""></div>
+          <div class="desc">
+            <h4 class="mt-3 mb-2">{{items.featureName}}</h4>
+            <p>{{items.Dep}}</p>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
