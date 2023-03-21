@@ -1225,14 +1225,4 @@ h6 {
     .error-404 img {
         max-width: 50%;
     }
-}
-
-::ng-deep {
-    app-header {
-        display: none;
-    }
-
-    app-footer {
-        display: none;
-    }
-}
+} 
