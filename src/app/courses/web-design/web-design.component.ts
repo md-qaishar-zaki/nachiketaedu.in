@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./web-design.component.scss']
 })
 export class WebDesignComponent {
-
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

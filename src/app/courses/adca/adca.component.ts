@@ -53,7 +53,7 @@ export class AdcaComponent {
     { ADCACourseFull: 'ADCA Course Admission', Coursevalidation: 'Direct in Institutes' }
   ]
 
-  ngOnInit() {
-
-  }
+  ngOnInit() { 
+      window.scrollTo(0, 0);
+    } 
 }

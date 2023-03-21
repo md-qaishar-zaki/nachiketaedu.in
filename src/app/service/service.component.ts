@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./service.component.scss']
 })
 export class ServiceComponent {
-
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

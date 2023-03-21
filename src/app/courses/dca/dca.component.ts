@@ -41,4 +41,8 @@ export class DCAComponent {
     { ScopeofCourseData: `The never-ending demand for IT professionals is increasing day by day not only in India but also abroad. Once you have completed this course, you can find a job in many reputed IT companies such as IBM, Oracle, Infosys, and Google as well. All the students may work as system engineers, junior programmers, web developers,s or system administrators.` },
     { ScopeofCourseData: `This field provides you with ample opportunities to make your career not only in the private sector but also in the public sector. Many organizations like NIC, Indian Army, Indian Air Force, and India Navy also recruit a number of computer professionals in their department especially IT’s.` },
   ]
+
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

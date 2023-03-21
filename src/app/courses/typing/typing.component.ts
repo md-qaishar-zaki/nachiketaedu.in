@@ -39,4 +39,8 @@ export class TypingComponent {
     { CourseBenefitsData: 'Typing not only helps you improve posture but also prevents injuries such as stress injuries.' },
     { CourseBenefitsData: 'It also helps to find more job opportunities and if you have at least 95% accuracy, you are eligible for better-paid jobs such as transcriptionist or journalist.' },
   ]
+
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

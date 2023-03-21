@@ -53,5 +53,7 @@ export class BccComponent {
     { ADCACourseFull: 'Basic Computer Course Admission', Coursevalidation: 'Direct in Institutes' }
   ];
 
-
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }
